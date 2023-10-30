@@ -1,0 +1,158 @@
+﻿@model Monrach240Pre.Data.Entities.TestData
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>TestData</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ID" class="control-label"></label>
+                <input asp-for="ID" class="form-control" />
+                <span asp-validation-for="ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TIMESTAMP" class="control-label"></label>
+                <input asp-for="TIMESTAMP" class="form-control" />
+                <span asp-validation-for="TIMESTAMP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DATE_TIME_STAMP" class="control-label"></label>
+                <input asp-for="DATE_TIME_STAMP" class="form-control" />
+                <span asp-validation-for="DATE_TIME_STAMP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DATA_SOURCE_NAME" class="control-label"></label>
+                <input asp-for="DATA_SOURCE_NAME" class="form-control" />
+                <span asp-validation-for="DATA_SOURCE_NAME" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DEVICE_ID" class="control-label"></label>
+                <input asp-for="DEVICE_ID" class="form-control" />
+                <span asp-validation-for="DEVICE_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PATIENT_SEQ_NUM" class="control-label"></label>
+                <input asp-for="PATIENT_SEQ_NUM" class="form-control" />
+                <span asp-validation-for="PATIENT_SEQ_NUM" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PATIENT_ID" class="control-label"></label>
+                <input asp-for="PATIENT_ID" class="form-control" />
+                <span asp-validation-for="PATIENT_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PATIENT_NAME" class="control-label"></label>
+                <input asp-for="PATIENT_NAME" class="form-control" />
+                <span asp-validation-for="PATIENT_NAME" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PATIENT_NAME_LAST" class="control-label"></label>
+                <input asp-for="PATIENT_NAME_LAST" class="form-control" />
+                <span asp-validation-for="PATIENT_NAME_LAST" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PATIENT_NAME_MIDDLE" class="control-label"></label>
+                <input asp-for="PATIENT_NAME_MIDDLE" class="form-control" />
+                <span asp-validation-for="PATIENT_NAME_MIDDLE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PATIENT_NAME_FIRST" class="control-label"></label>
+                <input asp-for="PATIENT_NAME_FIRST" class="form-control" />
+                <span asp-validation-for="PATIENT_NAME_FIRST" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PATIENT_NAME_SEX" class="control-label"></label>
+                <input asp-for="PATIENT_NAME_SEX" class="form-control" />
+                <span asp-validation-for="PATIENT_NAME_SEX" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PATIENT_ADDRESS" class="control-label"></label>
+                <input asp-for="PATIENT_ADDRESS" class="form-control" />
+                <span asp-validation-for="PATIENT_ADDRESS" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PATIENT_PHONE" class="control-label"></label>
+                <input asp-for="PATIENT_PHONE" class="form-control" />
+                <span asp-validation-for="PATIENT_PHONE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PATIENT_RACE" class="control-label"></label>
+                <input asp-for="PATIENT_RACE" class="form-control" />
+                <span asp-validation-for="PATIENT_RACE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_SEQ_NUM" class="control-label"></label>
+                <input asp-for="RESULT_SEQ_NUM" class="form-control" />
+                <span asp-validation-for="RESULT_SEQ_NUM" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_TEST_ID" class="control-label"></label>
+                <input asp-for="RESULT_TEST_ID" class="form-control" />
+                <span asp-validation-for="RESULT_TEST_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_TEST_ID1" class="control-label"></label>
+                <input asp-for="RESULT_TEST_ID1" class="form-control" />
+                <span asp-validation-for="RESULT_TEST_ID1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_TEST_ID2" class="control-label"></label>
+                <input asp-for="RESULT_TEST_ID2" class="form-control" />
+                <span asp-validation-for="RESULT_TEST_ID2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_TEST_ID3" class="control-label"></label>
+                <input asp-for="RESULT_TEST_ID3" class="form-control" />
+                <span asp-validation-for="RESULT_TEST_ID3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_TEST_ID4" class="control-label"></label>
+                <input asp-for="RESULT_TEST_ID4" class="form-control" />
+                <span asp-validation-for="RESULT_TEST_ID4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_VALUE" class="control-label"></label>
+                <input asp-for="RESULT_VALUE" class="form-control" />
+                <span asp-validation-for="RESULT_VALUE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_UNIT" class="control-label"></label>
+                <input asp-for="RESULT_UNIT" class="form-control" />
+                <span asp-validation-for="RESULT_UNIT" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_ABNORMAL" class="control-label"></label>
+                <input asp-for="RESULT_ABNORMAL" class="form-control" />
+                <span asp-validation-for="RESULT_ABNORMAL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_STATUS" class="control-label"></label>
+                <input asp-for="RESULT_STATUS" class="form-control" />
+                <span asp-validation-for="RESULT_STATUS" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RESULT_OPERATOR_ID" class="control-label"></label>
+                <input asp-for="RESULT_OPERATOR_ID" class="form-control" />
+                <span asp-validation-for="RESULT_OPERATOR_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
